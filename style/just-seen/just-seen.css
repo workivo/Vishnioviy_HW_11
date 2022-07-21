@@ -1,0 +1,10 @@
+.just-seen {
+    padding-bottom: 81px;
+}
+
+.just-seen__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 38px;
+}

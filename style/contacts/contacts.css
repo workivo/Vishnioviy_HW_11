@@ -1,0 +1,31 @@
+
+.logo {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    padding-bottom: 40px;
+    padding-top: 41px;
+}
+
+.contacts__button {
+    border-radius: 40px;
+    width: 170px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    border: 2px solid #F13C6E;
+    background: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.contacts__position {
+    margin-right: 40px;
+}

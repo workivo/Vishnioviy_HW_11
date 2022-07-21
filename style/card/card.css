@@ -1,0 +1,51 @@
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    text-align: center;
+}
+
+.card-item {
+    background-color: #FFFFFF;
+    margin-right: 30px;
+    padding: 25px;
+}
+
+.card-item:last-child {
+    margin-right: 0px;
+}
+
+.card__description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.card__price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.card__link {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    line-height: 16px;
+    width: 130px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: #F13C6E;
+    color: #FFFFFF;
+    border-radius: 30px;
+    border: none;
+}

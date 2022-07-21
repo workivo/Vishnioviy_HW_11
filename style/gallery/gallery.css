@@ -1,0 +1,21 @@
+.gallery {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.galery__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #FFFFFF;
+}
+
+.gallery__item {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 25%;
+    border-right: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+}

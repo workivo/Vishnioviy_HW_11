@@ -1,0 +1,78 @@
+.welcome-offer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-offer__box {
+    position: relative;
+    display: inline-block;
+    width: 540px;
+    background-color: #F13C6E;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    padding-right: 45px;
+}
+
+.welcome-offer__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.welcome-offer__description {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.welcome-offer__description-email--width {
+    width: 231px;
+}
+
+.welcome-offer__description-map--width {
+    width: 141px;
+}
+
+.welcome-offer__input {
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: 225px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #C4C4C4;
+    padding-left: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.welcome-offer__link {
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.welcome-offer__email::after {
+    content: url(../images/email.png);
+    position: absolute;
+    right: 45px;
+    top: 52.73px;
+}
+
+.welcome-offer__map::after {
+    content: url(../images/car.png);
+    position: absolute;
+    right: 45.33px;
+    top: 56px;
+}

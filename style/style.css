@@ -1,0 +1,47 @@
+@import url(./navigation/navigation.css);
+@import url(./contacts/contacts.css);
+@import url(./promo-chair/promochair.css);
+@import url(./special-purpose/special-purpose.css);
+@import url(./card/card.css);
+@import url(./welcome-offer/welcome-offer.css);
+@import url(./gallery/gallery.css);
+@import url(./just-seen/just-seen.css);
+@import url(./footer/footer-menu.css);
+@import url(./footer/footer-contacts.css);
+@import url(./footer/footer.css);
+@import url(./normalize.css);
+@import url(./fonts/stylesheet.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+h1,
+h2,
+h3,
+p,
+ul,
+footer,
+body,
+hr {
+    margin: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background: #E5E5E5;
+}
+
+.wrapper{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
